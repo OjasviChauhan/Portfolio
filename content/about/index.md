@@ -11,7 +11,7 @@ skills:
   - Java
   - C++
   - Git
-  - Forensics
+  - Solidity
 ---
 
 Hello! I'm Ojasvi, from Lucknow, Uttar Pradesh, India.

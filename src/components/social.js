@@ -19,7 +19,7 @@ const StyledList = styled.ul`
     content: '';
     display: block;
     width: 1px;
-    height: 90px;
+    height: 95px;
     margin: 0 auto;
     background-color: ${colors.lightSlate};
   }
@@ -35,8 +35,8 @@ const StyledLink = styled.a`
     transform: translateY(-3px);
   }
   svg {
-    width: 18px;
-    height: 18px;
+    width: 20px;
+    height: 20px;
   }
 `;
 
