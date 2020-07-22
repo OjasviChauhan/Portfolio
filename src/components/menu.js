@@ -6,7 +6,7 @@ import styled from 'styled-components';
 import { theme, mixins, media } from '@styles';
 const { colors, fontSizes, fonts } = theme;
 
-const StyledContainer = styled.div`
+const StyledContainer = styled.div `
   position: fixed;
   top: 0;
   bottom: 0;
@@ -21,7 +21,7 @@ const StyledContainer = styled.div`
   display: none;
   ${media.tablet`display: block;`};
 `;
-const Sidebar = styled.aside`
+const Sidebar = styled.aside `
   ${mixins.flexCenter};
   flex-direction: column;
   background-color: ${colors.lightNavy};
@@ -37,20 +37,20 @@ const Sidebar = styled.aside`
   ${media.phablet`width: 75vw;`};
   ${media.tiny`padding: 10px;`};
 `;
-const NavLinks = styled.nav`
+const NavLinks = styled.nav `
   ${mixins.flexBetween};
   width: 100%;
   flex-direction: column;
   text-align: center;
   color: ${colors.lightestSlate};
 `;
-const NavList = styled.ol`
+const NavList = styled.ol `
   padding: 0;
   margin: 0;
   list-style: none;
   width: 100%;
 `;
-const NavListItem = styled.li`
+const NavListItem = styled.li `
   margin: 0 auto 20px;
   position: relative;
   font-size: ${fontSizes.lg};
@@ -68,12 +68,13 @@ const NavListItem = styled.li`
     margin-bottom: 5px;
   }
 `;
-const NavLink = styled(Link)`
+const NavLink = styled(Link)
+`
   ${mixins.link};
   padding: 3px 20px 20px;
   width: 100%;
 `;
-const ResumeLink = styled.a`
+const ResumeLink = styled.a `
   ${mixins.bigButton};
   padding: 18px 50px;
   margin: 10% auto 0;
@@ -107,7 +108,8 @@ const Menu = ({ menuOpen, toggleMenu }) => {
                 </NavListItem>
               ))}
           </NavList>
-          <ResumeLink href="/Portfolio/resume.pdf" target="_blank" rel="nofollow noopener noreferrer">
+           HEAD
+          <ResumeLink href="Portfolio/resume.pdf" target="_blank" rel="nofollow noopener noreferrer">
             Resume
           </ResumeLink>
         </NavLinks>
